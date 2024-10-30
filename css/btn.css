@@ -1,0 +1,41 @@
+/**************************
+* Styling for all mCASH buttons
+**************************/
+.mcsh-direct,
+.mcsh-express,
+.mcsh-express-checkout {
+	background-color: #0065A5;
+	border-radius:5px;
+	color: #fff;
+	padding: 10px 20px;	
+	text-decoration:none;
+	display:inline-block;	
+
+}
+
+.mcsh-direct > img,
+.mcsh-express > img,
+.mcsh-express-checkout > img {
+	max-height:21px;
+	margin-left:5px;
+	display:inline;
+	vertical-align: middle;
+}
+
+/**************************
+* Styling for the direct purchase button
+**************************/
+.mcsh-direct {
+
+}
+/**************************
+* Styling for the express purchase buttons
+**************************/
+.mcsh-express {
+
+}
+.mcsh-express-checkout {
+
+	display:block;
+	text-align:center;
+}

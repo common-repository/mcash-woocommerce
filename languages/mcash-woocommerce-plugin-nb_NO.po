@@ -1,0 +1,473 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce - mCASH Gateway\n"
+"POT-Creation-Date: 2016-04-12 12:58+0200\n"
+"PO-Revision-Date: 2016-04-28 13:11+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-mcash-gateway.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/mCASH_Callback.class.php:153
+msgid "mCASH payment authenticated"
+msgstr "Betaling med mCASH er verifisert"
+
+#: classes/mCASH_Callback.class.php:188
+msgid "mCASH Order was aborted by customer"
+msgstr "mCASH-ordren er blitt kansellert av kunden"
+
+#: classes/mCASH_Gateway.class.php:31 classes/mCASH_Gateway.class.php:32
+#: classes/mCASH_Gateway.class.php:157
+msgid "mCASH"
+msgstr "mCASH"
+
+#: classes/mCASH_Gateway.class.php:35
+#, php-format
+msgid "mCASH Payment Gateway for WooCommerce. %s"
+msgstr "mCASH Betalingsportal for WooCommerce. %s"
+
+#: classes/mCASH_Gateway.class.php:80
+#, php-format
+msgid "%smCASH is now in Test Mode%s"
+msgstr "%smCASH er nå i testmodus%s"
+
+#: classes/mCASH_Gateway.class.php:84
+#, php-format
+msgid ""
+"%s <br /><strong>Your plugin still needs some configuration before it will "
+"be available in the frontend.</strong><br /><br />Before you can start using "
+"your gateway, you need to sign up for an account at http://mca.sh/.<br /"
+"><br /> After setting up your merchant account, you need to copy this key "
+"and paste it into your account settings page: <br /> <pre>%s</pre> When you "
+"have done this. Enter your Merchant ID and Merchant User ID below. These "
+"were given to you when you created your merchant account. %s"
+msgstr ""
+"%s <br /><strong>Du må fullføre konfigureringen nedenfor før mCASH vil være "
+"tilgjengelig i nettbutikken.</strong><br /><br />Før du kan ta i bruk mCASH "
+"som betalingsløsning, må du opprette en brukerstedskonto på http://mca.sh/."
+"<br /><br /> Etter at du har satt opp din brukerstedskonto må du kopiere "
+"denne nøkkelen og lime den inn i adminpanelet til mCASH: <br /> <pre>%s</"
+"pre> Når du har gjort dette fyller du inn brukersteds-ID og bruker-iD "
+"nedenfor. Disse mottok du når du opprettet din brukerstedskonto. %s"
+
+#: classes/mCASH_Gateway.class.php:120
+#, php-format
+msgid "%s Gateway Disabled. %s mCASH does not support your stores currency %s"
+msgstr ""
+"%s Betalingsløsning er deaktivert. %s mCASH støtter ikke din nettbutikks "
+"valgte valuta %s"
+
+#: classes/mCASH_Gateway.class.php:148
+msgid "Enabled/Disabled"
+msgstr "Aktivert/Deaktivert"
+
+#: classes/mCASH_Gateway.class.php:149
+msgid "Enable this payment gateway"
+msgstr "Aktiver betalingsløsningen"
+
+#: classes/mCASH_Gateway.class.php:154
+msgid "Title"
+msgstr "Tittel"
+
+#: classes/mCASH_Gateway.class.php:156
+msgid "This controls the title which the user sees during checkout."
+msgstr "Dette er tittelen som vil være synlig for dine kunder i kassen"
+
+#: classes/mCASH_Gateway.class.php:161
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: classes/mCASH_Gateway.class.php:164
+msgid "This controls the description which the user sees during checkout."
+msgstr "Denne beskrivelsen vil være synlig for kundene i kassen"
+
+#: classes/mCASH_Gateway.class.php:165
+msgid "Pay via mCASH mobile app"
+msgstr "Betal via mCASH-appen"
+
+#: classes/mCASH_Gateway.class.php:168
+msgid "API Credentials"
+msgstr "Kontoinnstillinger"
+
+#: classes/mCASH_Gateway.class.php:170
+#, php-format
+msgid ""
+"Enter your mCASH Merchant API credentials. You can find them here %shttps://"
+"my.mca.sh/mssp/%s"
+msgstr ""
+"Fyll inn dine kontoinnstillingen. Du kan finne de her %shttps://my.mca.sh/"
+"mssp/%s"
+
+#: classes/mCASH_Gateway.class.php:173
+msgid "Merchant ID"
+msgstr "Brukersteds-ID"
+
+#: classes/mCASH_Gateway.class.php:175
+msgid "The Merchant ID was assigned to you upon registering with mCASH."
+msgstr ""
+"Brukersteds-ID identifiserer ditt brukersted. Denne mottok du når du "
+"registrerte en brukerstedskonto"
+
+#: classes/mCASH_Gateway.class.php:178
+msgid "Merchant user ID"
+msgstr "Bruker-ID"
+
+#: classes/mCASH_Gateway.class.php:180
+msgid "The Merchant user ID was assigned to you upon registering with mCASH."
+msgstr "Bruker-ID mottok du når du opprettet din brukerstedskonto"
+
+#: classes/mCASH_Gateway.class.php:183
+msgid "Gateway settings"
+msgstr "Betalingsinnstillinger"
+
+#: classes/mCASH_Gateway.class.php:185
+msgid "Configure the setting for mCASH Payment Gateway for you needs."
+msgstr "Konfigurer betalingsalternativene for din nettbutikk"
+
+#: classes/mCASH_Gateway.class.php:188
+msgid "Capture payment on"
+msgstr "Trekk beløpet når ordrestatus endres til"
+
+#: classes/mCASH_Gateway.class.php:191
+msgid "Completed"
+msgstr "Fullført"
+
+#: classes/mCASH_Gateway.class.php:192
+msgid "Processing"
+msgstr "Behandler"
+
+#: classes/mCASH_Gateway.class.php:195
+msgid ""
+"When changing the order status to the selected status, the payment will be "
+"captured"
+msgstr ""
+"Når du endrer ordrestatusen til følgende status vil beløpet trekkes fra "
+"kundens konto"
+
+#: classes/mCASH_Gateway.class.php:199
+msgid "Virtual products"
+msgstr "Virtuelle produkter"
+
+#: classes/mCASH_Gateway.class.php:200
+msgid ""
+"Automatically capture the payment if the order only consists of virtual "
+"products"
+msgstr ""
+"Trekk beløpet automatisk hvis kundens ordre kun består av virtuelle produkter"
+
+#: classes/mCASH_Gateway.class.php:201
+msgid "Automatically capture payments on virtual products"
+msgstr ""
+"Trekk beløpet umiddelbart fra kundens konto ved kjøp av virtuelle produkter"
+
+#: classes/mCASH_Gateway.class.php:207
+msgid "Automatically capture"
+msgstr "Trekk beløp automatisk"
+
+#: classes/mCASH_Gateway.class.php:208
+msgid "Capture an authorized payment automatically"
+msgstr "Trekk beløpet umiddelbart fra kundens konto ved alle kjøp"
+
+#: classes/mCASH_Gateway.class.php:211
+msgid ""
+"This will override the two previous option if enabled. This captures the "
+"payment immediately after the payment is authenticated by the user."
+msgstr ""
+"Denne innstillingen vil overstyre de to innstillingene ovenfor. Når denne er "
+"valgt vil beløpet trekkes fra kundens konto umiddelbart ved gjennomført kjøp."
+
+#: classes/mCASH_Gateway.class.php:215
+msgid "mCASH Express"
+msgstr "mCASH Express"
+
+#: classes/mCASH_Gateway.class.php:216
+msgid "Enable mCASH Express"
+msgstr "Aktiver mCASH Express"
+
+#: classes/mCASH_Gateway.class.php:219
+msgid ""
+"Enables mCASH Express which lets the user go directly to mCASH to complete "
+"his order."
+msgstr ""
+"Muliggjør betaling via mCASH Express som lar kunden gå direkte til betaling "
+"i mobilappen fra handlekurven"
+
+#: classes/mCASH_Gateway.class.php:223
+msgid "Show Express on"
+msgstr "Vis Express her"
+
+#: classes/mCASH_Gateway.class.php:224
+msgid "Choose where you want to display the mCASH Express button"
+msgstr "Velg hvor du vil at knappen for mCASH Express skal være synlig"
+
+#: classes/mCASH_Gateway.class.php:227
+msgid "Top and bottom"
+msgstr "Topp og bunn"
+
+#: classes/mCASH_Gateway.class.php:228
+msgid "Top only"
+msgstr "Kun i bunn"
+
+#: classes/mCASH_Gateway.class.php:229
+msgid "Bottom only"
+msgstr "Kun i topp"
+
+#: classes/mCASH_Gateway.class.php:232
+msgid ""
+"The value you choose here will determine where the mCASH Express button will "
+"be placed in the cart on your store"
+msgstr ""
+"Verdien du velger her vil avgjøre hvor mCASH Express-knappen vil være synlig "
+"i handlekurven i din nettbutikk. Velg mellom i toppen, i bunnen eller begge "
+"deler."
+
+#: classes/mCASH_Gateway.class.php:236
+msgid "mCASH Direct"
+msgstr "mCASH DIrect"
+
+#: classes/mCASH_Gateway.class.php:237
+msgid "Enable mCASH Direct"
+msgstr "Aktiver mCASH Direct"
+
+#: classes/mCASH_Gateway.class.php:240
+msgid ""
+"Enables mCASH Direct which lets the user buy a product directly with mCASH"
+msgstr ""
+"Muliggjør betaling via mCASH Direct som lar kunden kjøpe et produkt med "
+"appen direkte fra produktvisning"
+
+#: classes/mCASH_Gateway.class.php:244
+msgid "Shipping"
+msgstr "Frakt"
+
+#: classes/mCASH_Gateway.class.php:246
+msgid ""
+"When a customer buys a product with mCASH Direct or mCASH Express, he or she "
+"will not visist the checkout page where they can choose the wanted form of "
+"shipping for their product(s). Here you can define a fixed price, let it be "
+"free, or give free shipping on orders exceeding a price limit."
+msgstr ""
+"Når en kunde kjøper er produkt med mCASH Direct eller mCASH Express vil ikke "
+"vedkommende gå igjennom kassevisningen hvor de kan velge fraktalternativ for "
+"ordren. Her kan du definere en fast pris for ordrer med mCAH Express og "
+"mCASH Direct, eller la frakt være gratis, eller gratis dersom kunden handler "
+"for mer enn et oppgitt beløp."
+
+#: classes/mCASH_Gateway.class.php:249
+msgid "Price"
+msgstr "Pris"
+
+#: classes/mCASH_Gateway.class.php:252
+msgid ""
+"Set the fixed price customers that check out with mCASH Express and mCASH "
+"Direct will pay. Leave blank or 0 for free shipping"
+msgstr ""
+"Set en fast fraktpris for kunder som handler med mCASH Express og mCASH "
+"Direct. La være blank eller 0 for gratis frakt."
+
+#: classes/mCASH_Gateway.class.php:253 classes/mCASH_Gateway.class.php:260
+msgid "0"
+msgstr "0"
+
+#: classes/mCASH_Gateway.class.php:256
+msgid "Free above"
+msgstr "Gratis over"
+
+#: classes/mCASH_Gateway.class.php:259
+msgid ""
+"If a customer buys one or more items totalling above this price, the "
+"shipment will be free. Leave blank or 0 if you always want to charge for "
+"shipping"
+msgstr "Hvis en kunde handler for mer enn oppgitt beløp vil frakt være gratis"
+
+#: classes/mCASH_Gateway.class.php:263
+msgid "Public RSA key"
+msgstr "Offentlig RSA-nøkkel"
+
+#: classes/mCASH_Gateway.class.php:265
+#, php-format
+msgid ""
+"Your public RSA key. Copy this to the corresponding field for your merchant "
+"user at %shttps://my.mca.sh/mssp/%s %s<pre>%s</pre>%s"
+msgstr ""
+"Din offentlige RSA-nøkkel. Denne skal kopieres og limes inn i the tilhørende "
+"feltet for din brukerstedskonto på %shttps://my.mca.sh/mssp/%s %s<pre>%s</"
+"pre>%s"
+
+#: classes/mCASH_Gateway.class.php:268
+msgid "Testmode"
+msgstr "Testmodus"
+
+#: classes/mCASH_Gateway.class.php:270
+msgid ""
+"Here you can enable testmode. All transactions will be run against the test "
+"mCASH test environment. To do this, you need to obtain a testbed token first."
+msgstr ""
+"Her kan du aktivere testmodus. Alle ordre og betalingen vil bli kjørt mot "
+"mCASH sitt testmiljø. For å aktivere dette må du først få en testbed-nøkkel."
+
+#: classes/mCASH_Gateway.class.php:273
+msgid "Test Mode"
+msgstr "Testmodus"
+
+#: classes/mCASH_Gateway.class.php:274
+msgid "Enable Test Mode"
+msgstr "Aktiver testmodus"
+
+#: classes/mCASH_Gateway.class.php:277
+msgid "If enabled, all transactions will be sent to the mCASH Test API."
+msgstr ""
+"Hvis aktivert, vil alle transaksjoner bli sendt til mCASH sitt test-API"
+
+#: classes/mCASH_Gateway.class.php:281
+msgid "Test token"
+msgstr "Testnøkkel"
+
+#: classes/mCASH_Gateway.class.php:283
+#, php-format
+msgid "When using mCASH %stest environment%s , this token needs to be set"
+msgstr "Når du bruker mCASH %sttestmiljø%s"
+
+#: classes/mCASH_Gateway.class.php:286
+msgid "Test Private Key"
+msgstr "Privat RSA-nøkkel"
+
+#: classes/mCASH_Gateway.class.php:288
+#, php-format
+msgid ""
+"When using mCASH %stest environment%s, you need to set the Private key "
+"retrieved from the testbed."
+msgstr ""
+"Når du bruker mCASH %stestmiljø%s må du lime inn den private RSA-nøkkelen "
+"som du får fra mCASH testbed."
+
+#: classes/mCASH_Gateway.class.php:292
+msgid "Log Mode"
+msgstr "Logging"
+
+#: classes/mCASH_Gateway.class.php:293
+msgid "Enable logging"
+msgstr "Aktiver logging"
+
+#: classes/mCASH_Gateway.class.php:349
+msgid ""
+"We are currently experiencing problems trying to connect to this payment "
+"gateway. Sorry for the inconvenience. Error: "
+msgstr ""
+"We opplevere for øyeblikket problemer med å koble til mCASH. Beklager "
+"problemet. Feil: "
+
+#: classes/mCASH_Gateway.class.php:399
+msgid "mCASH Refund created. Refund ID "
+msgstr "Tilbakebetaling via mCASH opprettet. ID: "
+
+#: classes/mCASH_Gateway.class.php:403
+msgid "mCASH Refund failed."
+msgstr "Tilbakebetaling via mCASH feilet."
+
+#: classes/mCASH_Gateway.class.php:408
+msgid "mCASH Refund failed. Error: "
+msgstr "TIlbakebetaling via mCASH Feilet. Feilmelding: "
+
+#: classes/mCASH_Layout.class.php:44 classes/mCASH_Layout.class.php:61
+#: classes/mCASH_Layout.class.php:78
+msgid "Buy now"
+msgstr "Kjøp nå"
+
+#: classes/mCASH_Orders.class.php:145 classes/mCASH_Orders.class.php:227
+msgid "mCASH Fraktkostnad"
+msgstr "mCASH Fraktkostnad"
+
+#: classes/mCASH_Orders.class.php:189 classes/mCASH_Orders.class.php:268
+msgid "mCASH Direct transaction failed. Error: "
+msgstr "Kjøp med mCASH Direct feilet. Feilmelding: "
+
+#: classes/mCASH_Orders.class.php:213
+msgid "mCASH Direct purchase. Pending payment."
+msgstr "Ordre opprettet med mCASH Direct. Avventer betaling."
+
+#: classes/mCASH_Orders.class.php:294
+msgid "mCASH Payment released"
+msgstr "Autentisert beløp via mCASH er tilbakeført til kunden"
+
+#: classes/mCASH_Orders.class.php:300
+msgid "mCASH manual release failed"
+msgstr "Heving av reservert beløp feilet."
+
+#: classes/mCASH_Orders.class.php:304
+msgid "mCASH Payment release failed: "
+msgstr "Heving av reservert beløp feilet: "
+
+#: classes/mCASH_Orders.class.php:338
+msgid "mCASH Payment captured"
+msgstr "Betaling via mCASH er trukket"
+
+#: classes/mCASH_Orders.class.php:345
+msgid "mCASH manual capture failed"
+msgstr "Manuelt trekk av betaling via mCASH feilet: "
+
+#: classes/mCASH_Orders.class.php:349
+msgid "mCASH Payment capture failed: "
+msgstr "Trekk av reservert beløp via mCASH feilet: "
+
+#: classes/mCASH_Shipping.class.php:18
+msgid "mCASH Shipping"
+msgstr "mCASH Frakt"
+
+#: classes/mCASH_Shipping.class.php:19
+msgid ""
+"This shipping method is used for transactions with mCASH Direct and mCASH "
+"Express"
+msgstr ""
+"Denne fraktmetoden benyttes av mCASH for å beregne frakt på ordrer "
+"gjennomført med mCASH Direct og mCASH Express"
+
+#: classes/mCASH_Utilities.class.php:46
+msgid "Shipping cost"
+msgstr "Fraktkostnad"
+
+#: woocommerce-mcash-gateway.php:56
+msgid "Manually capture mCASH payment"
+msgstr "Trekk beløp via mCASH manuelt"
+
+#: woocommerce-mcash-gateway.php:98
+msgid "Settings"
+msgstr "Innstillinger"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce - mCASH Gateway"
+msgstr "WooCommerce - mCASH Betalingsportal"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.mcash.no"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Extends WooCommerce by Adding mCASH Gateway."
+msgstr "Utvider WooCommerce ved å legge til mCASH betalingsløsning"
+
+#. Author of the plugin/theme
+msgid "Klapp Media AS"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.klapp.no"
+msgstr ""
+
+#~ msgid "Buy with mCASH"
+#~ msgstr "Kjøp med mCASH"
+
+#~ msgid "Free shipping"
+#~ msgstr "Gratis frakt"
